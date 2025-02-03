@@ -24,3 +24,14 @@ pnpm-debug.log*
 # lock files
 package-lock.json
 yarn.lock
+
+# other files
+.env
+.env.*
+*.log
+coverage/
+dist/
+temp/
+*.tmp
+*.bak
+TODO.md

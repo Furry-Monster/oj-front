@@ -9,3 +9,8 @@ import "@/access";
 import "bytemd/dist/index.css";
 
 createApp(App).use(ArcoVue).use(store).use(router).mount("#app");
+
+// 提供数据mock
+if (process.env.NODE_ENV === "development") {
+  require("./mock");
+}
