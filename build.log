@@ -1,6 +1,0 @@
-yarn run v1.22.22
-$ vue-cli-service build
-All browser targets in the browserslist configuration have supported ES module.
-Therefore we don't build two separate bundles for differential loading.
-
-
